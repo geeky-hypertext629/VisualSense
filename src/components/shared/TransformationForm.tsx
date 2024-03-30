@@ -42,7 +42,7 @@ export const formSchema = z.object({
   title: z.string(),
   aspectRatio: z.string().optional(),
   color: z.string().optional(),
-  promt: z.string().optional(),
+  prompt: z.string().optional(),
   publicId: z.string(),
 });
 
